@@ -27,4 +27,6 @@ def reorderLogFiles(self, logs: List[str]) -> List[str]:
         return letters+digits
 
 
+#람다 -> 식별자가 없는 함수
+#람다 충분히 연습하기
 #https://ubermensch-with.tistory.com/644
