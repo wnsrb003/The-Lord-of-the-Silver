@@ -11,3 +11,4 @@ class Solution:
         num.sort()
         alp.sort(key= lambda x: ([i for i in x.split()[1:]], x.split()[0]))
         return alp + num
+
