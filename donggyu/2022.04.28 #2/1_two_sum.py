@@ -30,9 +30,6 @@ nums_map = {}
 # 키와 값을 바꿔서 딕셔너리로 저장
 for i, num in enumerate(nums):
     nums_map[num] = i
-    print(f'{num}, {i}')
-    print("""""""""""")
-    print(f'{i}, {num}')
 # print(nums_map)
 # # 타겟에서 첫 번째 수를 뺀 결과를 키로 조회
 # for i, num in enumerate(nums):
