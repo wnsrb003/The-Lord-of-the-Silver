@@ -1,7 +1,7 @@
 s="babad"
 #손코딩 까지는 완료했는데, 잘 구현되지 않아, 소스코드 참고
-#
-# s="a"
+#https://leetcode.com/problems/longest-palindromic-substring/discuss/2954/Python-easy-to-understand-solution-with-comments-(from-middle-to-two-ends).
+# 아이디어는 같았는데, 구현이 깔끔한 풀이
 def longestPalindrome(self, s):
     res = ""
     for i in range(len(s)):
@@ -14,9 +14,8 @@ def longestPalindrome(self, s):
         if len(tmp) > len(res):
             res = tmp
     return res
- 
-# get the longest palindrome, l, r are the middle indexes   
-# from inner to outer
+
+#중앙에서 퍼져나가게 인덱스 조정해주는 함수
 def check(self, s, l, r):
     while l >= 0 and r < len(s) and s[l] == s[r]:
         l -= 1; r += 1

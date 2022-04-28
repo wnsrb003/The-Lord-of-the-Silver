@@ -5,7 +5,7 @@
 #sol.1
 from collections import defaultdict
 strs = ["eat","tea","tan","ate","nat","bat"]
-ans = defaultdict(list) # 아이디어 참고
+ans = defaultdict(list) # 아이디어 참고 (애용하겠습니다!)
 
 
 for i in strs:
