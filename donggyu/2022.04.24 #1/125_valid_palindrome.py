@@ -14,9 +14,9 @@ rev_s = new_s[::-1]
 rev_s=''.join(rev_s)
 
 if new_s == rev_s:
-    print("true")
+    return True
 else:
-    print("false")
+    return False
 
 #isanum: 문자열이 영어, 한글, 숫자로 되어 있으면 참 리턴, 아니면 거짓 리턴
 #isalhpa: 문자열이 영어 혹은 한글로 되어 있으면, 참 아니면 거짓
